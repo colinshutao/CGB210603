@@ -1,0 +1,25 @@
+#端口配置
+server:
+  port: 8888
+
+#SpringBoot配置mysql信息
+spring:
+  datasource:
+    #如果使用高版本驱动 则添加cj
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/jt?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+    #url: jdbc:mysql:///jt?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 7777777
+
+#SpringBoot整合Mybatis配置
+mybatis:
+  #定义别名包
+  type-aliases-package: com.jt.pojo
+
+  #指定UserMapper.xml文件的位置
+  #mapper-locations: classpath:*.xml 报错 改成 classpath*:*.xml
+  mapper-locations: classpath:/mappers/*.xml
+  #开启驼峰映射
+  configuration:
+    map-underscore-to-camel-case: true

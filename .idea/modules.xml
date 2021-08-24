@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CGB210603.iml" filepath="$PROJECT_DIR$/.idea/CGB210603.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_demo01/springboot_demo01.iml" filepath="$PROJECT_DIR$/springboot_demo01/springboot_demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_demo02/springboot_demo02.iml" filepath="$PROJECT_DIR$/springboot_demo02/springboot_demo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_demo03/springboot_demo03.iml" filepath="$PROJECT_DIR$/springboot_demo03/springboot_demo03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_demo04/springboot_demo04.iml" filepath="$PROJECT_DIR$/springboot_demo04/springboot_demo04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zdemo/zdemo.iml" filepath="$PROJECT_DIR$/zdemo/zdemo.iml" />
+    </modules>
+  </component>
+</project>
