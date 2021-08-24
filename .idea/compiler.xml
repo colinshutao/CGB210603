@@ -13,6 +13,7 @@
         <module name="springboot_demo01" />
         <module name="zdemo" />
         <module name="springboot_demo3" />
+        <module name="springboot_demo05" />
         <module name="demo" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="springboot_demo02" target="1.8" />
       <module name="springboot_demo03" target="1.8" />
       <module name="springboot_demo04" target="1.8" />
+      <module name="springboot_demo05" target="1.8" />
       <module name="springboot_demo3" target="1.5" />
       <module name="zdemo" target="1.8" />
     </bytecodeTargetLevel>
@@ -33,6 +35,7 @@
       <module name="springboot_demo02" options="-parameters" />
       <module name="springboot_demo03" options="-parameters" />
       <module name="springboot_demo04" options="-parameters" />
+      <module name="springboot_demo05" options="-parameters" />
       <module name="zdemo" options="-parameters" />
     </option>
   </component>
